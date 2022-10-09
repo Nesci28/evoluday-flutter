@@ -1,0 +1,30 @@
+name: evoluday
+description: Evoluday FE
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences:
+  ionicons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  jwt_decode:
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: ./assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: ./assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: ./assets/fonts/Montserrat-Bold.ttf
+          weight: 700
